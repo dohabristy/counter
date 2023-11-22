@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+#service {
+    padding: 100px 0;
+}
+.service-wrap {
+    display: flex;
+    gap: 30px;
+
+}
+.service-item {
+    width: 270px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-item .counter {
+    font-size: 70px;
+}
+.one {
+    background-color: aqua;
+    border-radius: 10%;
+}
+.two {
+    background-color: brown;
+    border-radius: 10%;
+}
+.three {
+    background-color: cornflowerblue;
+    border-radius: 10%;
+}
+.four{
+    background-color: darkkhaki;
+    border-radius: 10%;
+}
+.five {
+    background-color: lawngreen;
+    border-radius: 10%;
+}
